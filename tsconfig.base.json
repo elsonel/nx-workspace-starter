@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@store-project/component-lib": ["packages/component-lib/src/index.ts"],
+      "@store-project/design-system": ["packages/design-system/src/index.ts"],
+      "@store-project/shared-utils": ["packages/shared-utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
